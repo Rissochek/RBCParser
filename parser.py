@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-class RBKParser:
+class RBCParser:
     def __init__(self) -> None:
         self.url = 'https://www.rbc.ru/economics/'
         self.links = []
