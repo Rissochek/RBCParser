@@ -1,5 +1,5 @@
-from parser import RBKParser
+from parser import RBCParser
 
-scraper = RBKParser()
+scraper = RBCParser()
 
 print(scraper.get_full_data())
